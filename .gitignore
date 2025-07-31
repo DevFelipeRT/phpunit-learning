@@ -1,0 +1,38 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Composer PHAR file (if present)
+composer.phar
+
+# Ignore Composer cache and temporary files
+composer.lock~
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore log, temporary, and swap files
+*.log
+*.tmp
+*.swp
+*~
+
+# Ignore PHPUnit coverage reports and caches
+/coverage/
+/.clover
+.phpunit.result.cache
+.phpunit.cache
+phpunit.xml.cache
+
+# Ignore output directories for build tools and reports
+/build/
+/reports/
+
+# Ignore IDE/editor project folders
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+{
+    "name": "felipe/php-unit",
+    "description": "Projeto para praticar PHPUnit",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Src\\Services\\Tests\\": "src/Services/Tests/",
+            "Src\\Entities\\Tests\\": "src/Entities/Tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    }
+}
