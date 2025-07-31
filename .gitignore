@@ -6,6 +6,7 @@ composer.phar
 
 # Ignore Composer cache and temporary files
 composer.lock~
+composer.lock
 
 # Ignore environment variable files
 .env
